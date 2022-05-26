@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header class="encabezado">
+        <div>
+            <h1 id="mitad-izq-enc" class="titulo">Encript</h1>
+        </div>
+        <div>
+            <img id="logo" src="imagenes/Logo2.png" alt="Logo Alura">
+        </div>
+        <div>
+             <h1 id="mitad-der-enc" class="titulo">dor de texto</h1>
+        </div>
+    </header>
+    <main class="principal">
+        <section id="seccion-izq" class="secciones">
+            <div class="izq-sup">
+                <textarea id="txt-a-deco"  class="input-text-codificador" placeholder="Ingresa el texto aquí:"></textarea>  
+            </div>    
+            <p id="txt-sec-izq" class="izq-med">Sólo letras minúsculas y sin acentos</p>
+            <div class="izq-inf">
+                <button id="bto-encripta" class="boton">Encriptar</button>
+                <button id="bto-desencripta" class="boton">Desencriptar</button>       
+                <button id="bto-limpia" class="boton">Limpiar</button>
+            </div>    
+        </section>
+        <section id="seccion-der" class="secciones">
+            <div class="der-sup">
+                <div>
+                    <img id="figura" src="imagenes/Muñeco2.png">
+                </div>
+                <div>
+                    <h2 id="msg1">Ningún mensaje fue encontrado</h2>
+                    <p id="msg2">Ingresa el texto que desees encriptar o desencriptar</p>
+                </div>   
+            </div>
+            <div id="txt-y-bto">
+                <div id="div-txt-deco">
+                    <textarea id="txt-deco" class="text-decodificador" ></textarea>
+                </div>
+                <div class="bto-copiar">
+                    <button id="bto-copiar" class="boton" onclick="copiar()">Copiar</button>
+                </div>          
+            </div>
+        </section>
+    </main>
+    <footer class="pie-pagina">
+        <div class="links">
+            <div class="git">
+                <a href="https://github.com/AndresSJ21"><img id="logo-git" src="imagenes/git-blanco.png" alt="logo github"></a>
+            </div>
+            <div class="li">
+                <a href="https://www.linkedin.com/in/andresmarcelopanella/"><img id="logo-li" src="imagenes/linkedin-white.png" alt="logo linkedin"></a>
+            </div>
+            <div class="email">
+                <a href="mailto:andrespanella@gmail.com"><img id="logo-email" src="imagenes/email-blanco.png" alt=""></a>
+            </div>
+        </div>
+            <div>
+                <p class="copyright">&copy Copyright Andres M. Panella - 2022</p>
+            </div>
+    
+    </footer>
+</body>
+<script src="principal.js"></script>
+</html>

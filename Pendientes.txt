@@ -1,0 +1,5 @@
+Pendientes
+
+configurar fuentes
+resolver responsividad vertical
+subir a git
