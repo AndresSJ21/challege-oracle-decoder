@@ -31,7 +31,7 @@ header {
     width:20px;
     transition: 1s all;
     cursor: pointer;
-    padding-top:1.5vh;
+    padding-top:3vh;
 }
 
 #logo:hover{
