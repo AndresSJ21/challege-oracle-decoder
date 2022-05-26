@@ -14,7 +14,7 @@ header {
 
 .titulo {
     padding-top: 2.5vh;
-    font-size: 5vh;
+    font-size: 4vh;
     color: rgb(0, 0, 0);
     font-weight: bold;
     text-shadow: 0px 0px 10px yellow;
@@ -31,7 +31,7 @@ header {
     width:20px;
     transition: 1s all;
     cursor: pointer;
-    padding-top:3vh;
+    padding-top:2vh;
 }
 
 #logo:hover{
