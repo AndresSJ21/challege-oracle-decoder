@@ -342,16 +342,14 @@ footer {
         padding: 1vh;
         color:rgb(0, 0, 0);
         font-weight: bold;
-        font-size: 34px;
-
-        
+        font-size: 34px; 
     }
     
     #msg2{
         color:rgb(0, 0, 0);
         font-size: 18px;
-
     }
+
     footer {
         display: flex;
         flex-direction: row;
@@ -377,11 +375,6 @@ footer {
 
 @media only screen and (min-width:1024px){
 
-body>*{
-    width:100vw;
-    display: flex;
-    gap:0vh;
-}
 
 header {
     width:60%;
@@ -390,14 +383,14 @@ header {
 }
 
 #logo{
-    margin-top:1vw;
+    margin-top:1vh;
 }
 
 main{
     width:100vw;
     height:70vh ;
-    display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 #seccion-izq{
@@ -406,9 +399,9 @@ main{
 }
 
 #txt-a-deco{
-    padding-top: 5vh;
+    padding-top: 15vh;
     width:60vw;
-    height:45vh;
+    height:40vh;
     resize: vertical;
     background: transparent;
     border-color: transparent;
@@ -427,12 +420,14 @@ main{
 }
 
 .izq-inf{
-    padding-top: 5vh;
     display:flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-items: center;
 }
+
 .boton{
-    width: 300px;
+    width: 280px;
     height: 67px;
     margin: 5px;
     border-radius: 24px;
@@ -468,14 +463,12 @@ main{
     align-items: flex-start;
     width:30vw;
     height:80vh;
-    margin-right: 3vw;
 }
 
 #figura{
 display: flex;
-margin-top:10vh;
-margin-right: 10vh;
-margin-left:10vh;
+align-items: center;
+padding: 4vh;
 }
 
 #txt-deco{
