@@ -10,6 +10,7 @@ body {
 header {
     display: flex;
     justify-content: center;
+    height: 10vh;
 }
 
 .titulo {
@@ -18,6 +19,7 @@ header {
     color: rgb(0, 0, 0);
     font-weight: bold;
     text-shadow: 0px 0px 10px yellow;
+    font-family: 'Libre Baskerville';
 }
 
 #mitad-izq-enc {
@@ -66,6 +68,7 @@ main{
     font-weight: bold;
     text-align: center;
     resize: vertical;
+    font-family: 'Libre Baskerville';
 }
 
 #txt-a-deco::placeholder{
@@ -82,6 +85,7 @@ main{
     margin-top:1vh;
     margin-bottom: 1vh;
     font-size: 15px;
+    font-family: 'Libre Baskerville';
 }
 
 .izq-inf{
@@ -103,6 +107,7 @@ main{
     transition: 1s all;
     cursor: pointer;
     box-shadow: 0px 0px 15px darkorange;
+    font-family: 'Libre Baskerville';
 }
 
 .boton:hover{
@@ -145,6 +150,7 @@ main{
     height: 2em;
     margin-top: 25px;
     margin-bottom: 5px;
+    font-family: 'Libre Baskerville';
 }
 
 #msg2{
@@ -153,6 +159,7 @@ main{
     flex-wrap: wrap;
     color:rgb(0, 0, 0);
     font-size: 18px;
+    font-family: 'Libre Baskerville';
 }
 
 #txt-deco{
@@ -164,6 +171,7 @@ main{
     font-style: italic;
     font-size: 25px;
     text-align: center;
+    font-family: 'Libre Baskerville';
     
 }
 
@@ -173,6 +181,7 @@ main{
     color:black;
     font-weight: bold;
     margin-bottom: -10px;
+    font-family: 'Libre Baskerville';
 }
 footer {
     display: flex;
@@ -238,6 +247,7 @@ footer {
     margin-right: 2vh;
     color: white;
     font-size: 15px;
+    font-family: 'Libre Baskerville';
 
 }
 
